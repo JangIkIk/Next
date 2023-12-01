@@ -1,0 +1,23 @@
+.simpleLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.listLayout{
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.listLayout:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
